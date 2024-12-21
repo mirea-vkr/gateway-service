@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    config:
+      import: http://localhost:8888  # Укажи свой адрес Config Server
